@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纪念踹网TrySky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部信息 -->
+        <header class="header">
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="TrySky">TrySky</h1>
+            </div>
+            <div class="header-subtitle">From 2001 To 2024</div>
+            <div class="header-description">汕头大学校级组织踹网 TrySky</div>
+        </header>
+
+        <!-- 主要内容区 -->
+        <main>
+            <!-- 计时器 -->
+            <section class="counter-section">
+                <div class="counter">
+                    <div class="counter-item">
+                        <span id="years">00</span>
+                        <span class="label">年</span>
+                    </div>
+                    <div class="counter-item">
+                        <span id="days">00</span>
+                        <span class="label">天</span>
+                    </div>
+                    <div class="counter-item">
+                        <span id="hours">00</span>
+                        <span class="label">时</span>
+                    </div>
+                    <div class="counter-item">
+                        <span id="minutes">00</span>
+                        <span class="label">分</span>
+                    </div>
+                    <div class="counter-item">
+                        <span id="seconds">00</span>
+                        <span class="label">秒</span>
+                    </div>
+                </div>
+                <div class="counter-description">From 2001</div>
+            </section>
+
+            <!-- 时间线部分 -->
+            <section class="timeline-section">
+                <h2 class="section-title">发展历程</h2>
+                <div class="timeline-container">
+                    <div id="timeline-content"></div>
+                </div>
+            </section>
+
+            <!-- 组织介绍 -->
+            <section class="intro-section">
+                <h2 class="section-title">组织简介</h2>
+                <div class="matrix-rain-container">
+                    <canvas id="matrix-rain"></canvas>
+                    <div class="intro-content">
+                        <p>踹网TrySky成立于2001年，是汕头大学独创的校级组织。作为一个充满活力的志愿服务组织，踹网以其独特的公司制运营模式、专业的IT技术支持以及创新创业平台而闻名。</p>
+                        <p>"踹"与"try"同音，寓意着勇于尝试、突破创新。在发展历程中，踹网始终秉持着服务师生、推动创新的理念，为汕大的信息化建设贡献着自己的一份力量。</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- 底部信息 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>纪念页面 © 2024</p>
+                <p>Forever TrySky</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- 粒子效果背景 -->
+    <canvas id="particle-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
